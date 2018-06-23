@@ -1,0 +1,50 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <link rel="stylesheet" type="text/css" href="{% static 'transport/vendors/css/grid.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'transport/style.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'transport/vendors/css/normalize.css' %}" />
+
+    <title>Points A to B</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'transport/style.css' %}" />
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="row">
+                <ul class="main-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">About</a></li>
+                </ul> 
+            </div>
+        </nav>
+        <div class="hero-text-box">
+            <h1>Every way to get from Point A to B.</h1>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <div class="input-field">
+                        <label for="location">Point A</label>
+                        <input type="text" class="form-control" id="from-place" placeholder="Seattle,WA" />
+                    </div>
+                </div>
+                <div class="col span-1-of-3">
+                    <div class="input-field">
+                        <label for="location">Point B</label>
+                        <input type="text" class="form-control" id="from-place" placeholder="Seattle,WA" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+       
+    </header>
+</body>
+</html>
