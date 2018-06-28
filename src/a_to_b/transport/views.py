@@ -8,3 +8,6 @@ def index(request):
 
 def search(request):
     return HttpResponse("Hello, World!")
+
+def get(self, request):
+    
